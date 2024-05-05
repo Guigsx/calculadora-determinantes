@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: ui-sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    padding: 50px;
+}
+.matriz input {
+    border: 2px #222 solid;
+    padding: 5px;
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.5rem;
+}
+
+.matriz input::placeholder {
+    font-size: 1.2rem;
+}
+
+.matrizes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+    row-gap: 1.2rem;
+}
+
+.matrizes section,
+.matrizes form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.matrizes section {
+    width: 100%;
+}
